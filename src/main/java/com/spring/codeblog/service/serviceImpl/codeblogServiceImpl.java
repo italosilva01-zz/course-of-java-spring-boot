@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 public class codeblogServiceImpl implements CodeblogService {
     
     @Autowired
-    CodeblogRepository codeblogRepository;
+    CodeblogRepository codeblogRepository;//ativa as funções do JpaRepository
 
     @Override
     public List<Post> findAll() {
