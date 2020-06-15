@@ -14,7 +14,7 @@ public class Post {
     @GeneratedValue(strategy = GenerationType.AUTO)//gera o id automaticamente
     private long id;
 
-    @NotBlank //não branco
+    @NotBlank //não braddnco
     private String titulo;
 
     @NotBlank
